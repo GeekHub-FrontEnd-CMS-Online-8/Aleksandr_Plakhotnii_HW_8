@@ -100,9 +100,9 @@ header {
         content: attr(data-open);
         color: #fff;
         display: block; }
-    header .wrap .header-top #burger:checked + nav[role="navigation"] .main-menu {
+    header .wrap .header-top #burger:checked + nav .main-menu {
       display: block; }
-    header .wrap .header-top #burger:checked + nav[role="navigation"] .nav-burger:after {
+    header .wrap .header-top #burger:checked + nav .nav-burger:after {
       content: attr(data-close); } }
 .development {
   width: 940px;
