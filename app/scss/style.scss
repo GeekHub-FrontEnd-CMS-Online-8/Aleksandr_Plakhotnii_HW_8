@@ -309,7 +309,7 @@ p {
     margin: 0 auto;
     max-width: 100%;
     box-sizing: border-box;
-    padding: 100px 0 160px 0;
+    padding: 100px 0 60px 0;
     display: flex;
     flex-direction: column;
     .awesome-clients {
@@ -379,8 +379,21 @@ p {
         }
       }
     }
+    .logos {
+      width: 940px;
+      margin: 150px auto 0;
+      display: flex;
+      max-width: 100%;
+      .logos-icon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+      }
+    }
   }
 }
+
 
 @media screen and(max-width: 767px ) {
   .clients-wrap {
