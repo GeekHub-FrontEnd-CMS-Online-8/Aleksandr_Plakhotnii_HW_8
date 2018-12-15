@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0; }
 
-div {
+div, input, textarea {
   box-sizing: border-box; }
 
 li {
@@ -374,5 +374,81 @@ p {
 @media screen and (max-width: 549px) {
   .person-2 {
     margin-top: 65px; } }
+footer {
+  background: #7690c5;
+  padding-top: 100px; }
+  footer .footer-wrap {
+    width: 940px;
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #87a0d2;
+    padding-bottom: 100px; }
+    footer .footer-wrap .footer-title {
+      color: #fff;
+      flex-basis: 520px; }
+      footer .footer-wrap .footer-title .say-hello h2 {
+        line-height: 1;
+        margin-bottom: 20px; }
+      footer .footer-wrap .footer-title .say-hello p {
+        color: #fff;
+        margin-bottom: 10px; }
+      footer .footer-wrap .footer-title .contact {
+        display: flex; }
+        footer .footer-wrap .footer-title .contact ul {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row; }
+          footer .footer-wrap .footer-title .contact ul li {
+            flex-basis: 220px;
+            font-size: 18px;
+            margin-top: 40px; }
+            footer .footer-wrap .footer-title .contact ul li a {
+              color: #fff; }
+              footer .footer-wrap .footer-title .contact ul li a i {
+                display: inline-block;
+                width: 30px; }
+    footer .footer-wrap .footer-form {
+      padding-left: 13px;
+      display: flex; }
+      footer .footer-wrap .footer-form form input, footer .footer-wrap .footer-form form textarea {
+        width: 100%;
+        height: 52px;
+        margin-top: 27px;
+        border: 1px solid #cccccc;
+        border-radius: 3px;
+        padding-left: 20px; }
+      footer .footer-wrap .footer-form form input[type="text"] {
+        margin-top: 0; }
+      footer .footer-wrap .footer-form form textarea {
+        height: 210px;
+        padding-top: 15px; }
+      footer .footer-wrap .footer-form form inpit-placeholder {
+        color: red; }
+  footer .copyright {
+    width: 940px;
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0; }
+    footer .copyright p {
+      color: #fff;
+      font-size: 16px; }
+
+@media screen and (max-width: 991px) {
+  .footer-wrap {
+    flex-direction: column; }
+    .footer-wrap .footer-title {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 365px !important; }
+      .footer-wrap .footer-title .contact ul {
+        display: flex; }
+        .footer-wrap .footer-title .contact ul li {
+          flex-basis: 0; } }
 
 /*# sourceMappingURL=style.css.map */
