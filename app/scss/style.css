@@ -290,5 +290,89 @@ p {
 @media screen and (max-width: 767px) {
   .clients-wrap .feedback .photo {
     display: none; } }
+.amazing-team {
+  background: #111111;
+  padding: 90px 40px; }
+  .amazing-team .team-wrap {
+    width: 940px;
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; }
+    .amazing-team .team-wrap .head-team {
+      display: flex;
+      text-align: center;
+      flex-direction: column; }
+      .amazing-team .team-wrap .head-team h2 {
+        color: #fff;
+        margin-bottom: 0; }
+    .amazing-team .team-wrap .team-foot {
+      display: flex;
+      text-align: center;
+      justify-content: center; }
+      .amazing-team .team-wrap .team-foot p {
+        margin-top: 50px;
+        flex-basis: 615px;
+        font-size: 20px; }
+
+.team {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  flex-wrap: wrap; }
+  .team .person {
+    color: #fff;
+    text-align: center; }
+    .team .person .person-photo {
+      width: 235px;
+      height: 235px;
+      border-radius: 50%;
+      border: 7px solid #fff; }
+    .team .person h4 {
+      font-weight: bold;
+      margin-top: 13px;
+      font-size: 18px; }
+    .team .person p {
+      color: #fff;
+      font-size: 16px; }
+    .team .person .social {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px; }
+      .team .person .social a {
+        width: 40px;
+        height: 40px;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        margin-right: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: center; }
+        .team .person .social a:last-child {
+          margin-right: 0; }
+        .team .person .social a i {
+          color: #fff; }
+
+.social .twitter:hover {
+  background: #00acee;
+  border: 3px solid #00acee !important; }
+.social .facebook:hover {
+  background: #3b5998;
+  border: 3px solid #3b5998 !important; }
+.social .google-plus:hover {
+  background: #dd4b39;
+  border: 3px solid #dd4b39 !important; }
+.social .pinterest:hover {
+  background: #c8232c;
+  border: 3px solid #c8232c !important; }
+
+@media screen and (max-width: 784px) {
+  .person-3 {
+    margin-top: 65px; } }
+@media screen and (max-width: 549px) {
+  .person-2 {
+    margin-top: 65px; } }
 
 /*# sourceMappingURL=style.css.map */

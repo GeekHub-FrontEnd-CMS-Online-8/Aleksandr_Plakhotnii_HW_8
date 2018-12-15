@@ -394,7 +394,6 @@ p {
   }
 }
 
-
 @media screen and(max-width: 767px ) {
   .clients-wrap {
     .feedback {
@@ -402,5 +401,124 @@ p {
         display: none;
       }
     }
+  }
+}
+
+.amazing-team {
+  background: #111111;
+  padding: 90px 40px;
+  .team-wrap {
+    width: 940px;
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    .head-team {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      h2 {
+        color: #fff;
+        margin-bottom: 0;
+      }
+    }
+   .team-foot {
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     p {
+       margin-top: 50px;
+       flex-basis: 615px;
+       font-size: 20px;
+     }
+    }
+  }
+}
+
+.team {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  flex-wrap: wrap;
+  .person {
+    color: #fff;
+    text-align: center;
+    .person-photo {
+      width: 235px;
+      height: 235px;
+      border-radius: 50%;
+      border: 7px solid #fff;
+    }
+    h4 {
+      font-weight: bold;
+      margin-top: 13px;
+      font-size: 18px;
+    }
+    p {
+      color: #fff;
+      font-size: 16px;
+    }
+    .social {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      a {
+        width: 40px;
+        height: 40px;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        margin-right: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        &:last-child {
+          margin-right: 0;
+        }
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.social {
+  .twitter {
+    &:hover {
+      background: #00acee;
+      border: 3px solid #00acee !important;
+    }
+  }
+  .facebook {
+    &:hover {
+      background: #3b5998;
+      border: 3px solid #3b5998 !important;
+    }
+  }
+  .google-plus {
+    &:hover {
+      background: #dd4b39;
+      border: 3px solid #dd4b39 !important;
+    }
+  }
+  .pinterest {
+    &:hover {
+      background: #c8232c;
+      border: 3px solid #c8232c !important;
+    }
+  }
+}
+
+@media screen and(max-width: 784px ) {
+  .person-3 {
+    margin-top: 65px;
+  }
+}
+
+@media screen and(max-width: 549px ) {
+  .person-2 {
+    margin-top: 65px;
   }
 }
